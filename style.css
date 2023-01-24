@@ -80,6 +80,10 @@ main {
   margin: 1rem 0 3rem;
 }
 
+.perfil:hover {
+  color: #ffff;
+}
+
 .links {
   height: 34.8rem;
 
@@ -126,6 +130,10 @@ main {
   padding: 3rem 2rem 3rem;
 }
 
+.links ul li:hover {
+  color: #ffff;
+}
+
 .tecnologias h2 {
   margin-bottom: 2rem;
 }
@@ -147,6 +155,9 @@ main {
   justify-content: center;
 
   background-color: #cb92b1;
+  color: #000;
+
+  border: none;
   border-radius: 3rem;
 
   height: 2.4rem;
@@ -160,7 +171,11 @@ main {
   line-height: 1.3rem;
 
   text-transform: uppercase;
-  color: #000;
+}
+
+.card:hover {
+  color: #ffff;
+  background-color: #ee92a1;
 }
 
 .experiências ul a {
@@ -205,14 +220,6 @@ main {
   color: #ffff;
 }
 
-.links ul li:hover {
-  color: #ffff;
-}
-
-.perfil:hover {
-  color: #ffff;
-}
-
 .page2 section {
   margin: 0 0 3rem 6rem;
 }
@@ -242,6 +249,10 @@ main {
   background-color: #302f3d;
 
   border: none;
+}
+
+.wrapper a:hover {
+  color: #ffff;
 }
 
 .wrapper button a {
