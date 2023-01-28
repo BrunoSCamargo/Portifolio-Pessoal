@@ -33,12 +33,6 @@ controls.forEach((control) => {
     });
 
     items[currentItem].classList.add("current-item");
-
-    items[currentItem].scrollintoView({
-      inline: "center",
-      behavior: "smooth",
-      block: "nearest",
-    });
   });
 });
 
@@ -68,11 +62,5 @@ controls1.forEach((control) => {
     });
 
     items1[currentIte].classList.add("current-item");
-
-    items1[currentIte].scrollintoView({
-      inline: "center",
-      behavior: "smooth",
-      block: "nearest",
-    });
   });
 });
